@@ -1,0 +1,44 @@
+# ========== UNITY ==========
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# ========== IDE ==========
+.vs/
+.vscode/
+.idea/
+
+# Arquivos de solução/projeto (gerados automaticamente)
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Configuração específica
+.vsconfig
+
+# ========== OS ==========
+.DS_Store
+Thumbs.db
+
+# ========== UNITY CACHE ==========
+MemoryCaptures/
+
+# ========== IL2CPP ==========
+il2cpp_cache/
+
+# ========== LOGS ==========
+*.log
+
+# ========== PACKAGES LOCK (opcional manter) ==========
+# Se quiser builds reproduzíveis, NÃO ignore:
+!Packages/packages-lock.json
