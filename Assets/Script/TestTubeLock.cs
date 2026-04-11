@@ -32,7 +32,7 @@ public class TestTubeLock : MonoBehaviour{
 	void UnlockFromRack(){
 		rb.constraints = RigidbodyConstraints.None;
 		isLockedInRack = false;
-	}
+	}  
 	
 	void CheckIfReleased(){
 		if (transform.position.y > rackTopLimit.position.y){
