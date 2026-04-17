@@ -1,0 +1,14 @@
+Sons incluidos nesta pasta (gratuitos / open source):
+
+- Derrame_Effect_Tick.ogg
+- Comemoracao_Polaris.ogg
+
+Origem: Android Open Source Project (AOSP), repositorio platform_frameworks_base
+Caminhos no AOSP:
+  data/sounds/effects/ogg/Effect_Tick.ogg
+  data/sounds/notifications/ogg/Polaris.ogg
+
+Licenca: Apache License, Version 2.0
+Resumo: uso comercial permitido; redistribuicao permitida; consulte a licenca completa do AOSP.
+
+https://source.android.com/docs/setup/about/licenses

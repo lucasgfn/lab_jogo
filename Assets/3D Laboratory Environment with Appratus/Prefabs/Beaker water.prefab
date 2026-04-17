@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 4731077637416961423}
   - component: {fileID: 7371509968137662789}
   - component: {fileID: -8653390839215561847}
+  - component: {fileID: 7129384651827364512}
+  - component: {fileID: 8129384651827364513}
   m_Layer: 0
   m_Name: Beaker water
   m_TagString: Untagged
@@ -110,6 +112,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4370586879743159886, guid: 44fed6aff454809469effaac1a0b86ed, type: 3}
+--- !u!114 &7129384651827364512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9028627854349766800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e4c2b1908a4d6e9f3142a7b5c8d0e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liquido: {fileID: 3337930760547089128}
+  escalaYVazia: 0
+  escalaYCheia: 1
+  posicaoYVazia: 0.00210011
+  posicaoYCheia: 0.052
+  volumeInicial: 0
+--- !u!114 &8129384651827364513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9028627854349766800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1f2a3b4c5d67e89f01234567890abcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipComemoracao: {fileID: 8300000, guid: d5f9e3b2818c5e6fa4253b7c6d9e1f03, type: 3}
+  volume: 1
 --- !u!1001 &4588832761785402624
 PrefabInstance:
   m_ObjectHideFlags: 0

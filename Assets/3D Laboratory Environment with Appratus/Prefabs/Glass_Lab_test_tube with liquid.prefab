@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8956486773811076611}
   - component: {fileID: 6606536619861125833}
   - component: {fileID: -3187267688378093534}
+  - component: {fileID: 8234519283746512345}
   m_Layer: 0
   m_Name: Glass_Lab_test_tube with liquid
   m_TagString: Untagged
@@ -111,6 +112,29 @@ CapsuleCollider:
   m_Height: 0.24406616
   m_Direction: 1
   m_Center: {x: -0.00000004004687, y: 0.121362604, z: 0}
+--- !u!114 &8234519283746512345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661188770769472284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a200139f6026c429e82d49be69b962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anguloMin: 100
+  taxaDerramamento: 0.35
+  proporcaoCapacidadeBequer: 0.33333334
+  bequer: {fileID: 0}
+  liquidoNoTubo: {fileID: 9155157804912538098}
+  clipSomDerrame: {fileID: 8300000, guid: c4e8f2a1907b4d6e9f3142a7b5c8d0e2, type: 3}
+  tuboEscalaYCheio: 0.75
+  tuboEscalaYVazio: 0.02
+  tuboPosYCheio: 0.0036000013
+  tuboPosYVazio: -0.035
+  liquidoInicialNoTubo: 1
 --- !u!1001 &8922982349968720257
 PrefabInstance:
   m_ObjectHideFlags: 0
